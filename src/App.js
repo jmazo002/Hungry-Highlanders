@@ -109,8 +109,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Hungry Highlanders</h1>
-      <button onClick = {() => setPopupActive(!popupActive)}>Add your recipe</button>
+      <img src={require('./myimage.png')} />
+      <button class = "adjust" onClick = {() => setPopupActive(!popupActive)}>Add your recipe</button>
 
       <div className="recipes">
         {recipes.map((recipe, i) => (

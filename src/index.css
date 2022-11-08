@@ -1,8 +1,8 @@
 
 :root {
-  --light: #582B00;
-  --dark: #FDEBAE;
-  --darker: #F7DC6F;
+  --light: white;
+  --dark: #073234;
+  --darker: green;
   --blue: #61DAFB;
   --crimson: #DB3052;
 }
@@ -11,13 +11,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Fira sans', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  
 }
 
 body {
   background-color: var(--darker);
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: auto;
+  background-position: 50% 0;
 }
-
 .App {
   color: var(--light);
   text-align: center;
@@ -36,6 +43,7 @@ h1 {
   margin: 2rem auto 0;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   grid-gap: 1rem;
+  
 }
 
 .recipe {
@@ -43,6 +51,12 @@ h1 {
   padding: 1rem;
   border-radius: 0.5rem;
   text-align: left;
+  align-self: baseline;
+
+}
+
+.adjust {
+  margin-top: 80px;
 }
 
 button {
@@ -51,7 +65,6 @@ button {
   border: none;
   outline: none;
   cursor: pointer;
-
   color: black;
   font-weight: bold;
   text-transform: uppercase;
@@ -64,11 +77,18 @@ button {
 .buttons {
   display: flex;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-left: -0.5rem;
   
 }
+img {
+  width: 220px;
+  position: absolute;
+  top : 0;
+  margin-left: -30px;
+  margin-top: -5px;
 
+}
 .buttons button {
   margin: 0 0.5rem;
 }
@@ -77,15 +97,22 @@ button.remove {
   color: black;
   background-color: var(--crimson);
 }
-
+h1 {
+  color: white;
+  
+}
 h4 {
   margin-bottom: 1rem;
   margin-top: 1rem;
-  color: #582B00;
+  color: #E8EB1B;
+  
+
 }
 .name {
     margin-top: 0rem;
-    color: #90681A;
+    color: #08B8FF;
+
+    
 }
 
 ol, ul {
