@@ -1,3 +1,6 @@
+## Hungry Highlanders
+A cookbook recipe list for UCR students
+
 Try out my app!
 https://hungryhighlanders.netlify.app/
 
