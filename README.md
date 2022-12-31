@@ -2,6 +2,8 @@
 A cookbook recipe list for UCR students
 
 Submitted as an entry to Cutie Hack 2022 Hackathon on https://cutie-hack-2022.devpost.com/?ref_feature=challenge&ref_medium=your-open-hackathons&ref_content=Recently+ended
+![image](https://user-images.githubusercontent.com/83481452/210156680-66b16cf4-93a4-4f10-a995-b6eae0efd84d.png)
+
 
 Try out my app!
 https://hungryhighlanders.netlify.app/
